@@ -62,14 +62,6 @@ class Grid(object):
             self.assign(t[0], t[1], t[2])
 
 
-def print_ncount(grid):
-    for y in range(grid.h):
-        for x in range(grid.w):
-            ncount = grid.neighbor_count(x, y)
-            print(ncount, grid.query(x, y), end="", sep="")
-        print()
-
-
 if __name__ == "__main__":
     grid = Grid(10, 10)
 
