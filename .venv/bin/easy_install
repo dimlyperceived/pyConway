@@ -1,4 +1,4 @@
-#!"/Users/daniel/Google Drive/development/conwaylife/env_life/bin/python3.4"
+#!"/Users/daniel/Google Drive/development/conwaylife/.venv/bin/python3.4"
 
 # -*- coding: utf-8 -*-
 import re
